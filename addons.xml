@@ -23,7 +23,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.apiionline" name="ApiiOnline" version="0.0.3" provider-name="apiionline">
+<addon id="plugin.video.apiionline" name="ApiiOnline" version="0.0.4" provider-name="apiionline">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
