@@ -285,7 +285,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.soupsieve" name="soupsieve" version="2.5" provider-name="Isaac Muse">
+<addon id="script.module.soupsieve" name="soupsieve" version="2.6" provider-name="Isaac Muse">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
