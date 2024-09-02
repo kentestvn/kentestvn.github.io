@@ -21,6 +21,28 @@
         </assets>
     </extension>
 </addon>
+
+<addon id="plugin.video.bongdainfo" name="MiTomTV" version="0.0.1" provider-name="bongdainfo">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests" version="2.32.3"/>
+		<import addon="inputstream.adaptive" version="20.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">bongdainfo</description>
+        <disclaimer lang="vi">bongdainfo</disclaimer>
+        <summary lang="vi">bongdainfo</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>	
 	
 <addon id="plugin.video.apiionline" name="ApiiOnline" version="0.0.4" provider-name="apiionline">
     <requires>
