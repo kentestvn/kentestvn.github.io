@@ -487,7 +487,7 @@
   </extension>
 </addon>
 	
-<addon id="kentestvn" name="kentestvn" version="0.0.1" provider-name="kentestvn">
+<addon id="kentestvn" name="kentestvn" version="0.0.2" provider-name="kentestvn">
 	<extension point="xbmc.addon.repository" name="kentestvn">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kentestvn/kentestvn.github.io/master/addons.xml</info>
@@ -499,6 +499,16 @@
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
+			<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips/</datadir>
+		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Goldenfreddy0703/repository.otaku/master/repo/zips/</datadir>
+        </dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/peno64/repository.peno64/master/repo/zips/addons.xml.md5</checksum>
