@@ -23,7 +23,28 @@
         </assets>
     </extension>
 </addon>
-
+<addon id="plugin.video.ffree" name="F-free" version="0.0.1" provider-name="f-free">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests" version="2.32.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">F-free</description>
+        <disclaimer lang="vi">F-free</disclaimer>
+        <summary lang="vi">F-free</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+			<fanart>icon.png</fanart>
+        </assets>
+    </extension>
+</addon>
 <addon id="plugin.video.bongdainfo" name="MiTomTV" version="0.0.3" provider-name="bongdainfo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
