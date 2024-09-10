@@ -31,7 +31,6 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-	<extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <description lang="vi">F-free</description>
         <disclaimer lang="vi">F-free</disclaimer>
