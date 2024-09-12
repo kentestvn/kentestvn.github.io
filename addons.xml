@@ -23,7 +23,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.ffree" name="F-free" version="0.0.1" provider-name="f-free">
+<addon id="plugin.video.ffree" name="F-free" version="0.0.2" provider-name="f-free">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
