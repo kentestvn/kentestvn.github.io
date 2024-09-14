@@ -452,7 +452,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.idna" name="idna" version="3.8" provider-name="Kim Davies, mkendo">
+<addon id="script.module.idna" name="idna" version="3.9" provider-name="Kim Davies, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -470,7 +470,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.urllib3" name="urllib3" version="2.2.2" provider-name="urllib3, mkendo">
+<addon id="script.module.urllib3" name="urllib3" version="2.2.3" provider-name="urllib3, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
