@@ -154,11 +154,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.thapcam" name="ThapCam" version="0.0.5" provider-name="thapcam">
+<addon id="plugin.video.thapcam" name="ThapCam" version="0.0.6" provider-name="thapcam">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.32.3"/>
-		<import addon="script.module.htmlement" version="2.0.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.htmlement"/>
 		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
