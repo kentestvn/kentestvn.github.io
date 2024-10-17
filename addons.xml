@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+	<addon id="plugin.video.last_played" name="Last Played" version="7.4.0" provider-name="Luis Rodrigues">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Last Played</summary>
+		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<source>https://github.com/5-star/plugin.video.last_played</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 	
 <addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.2.2" provider-name="thuvienhd">
     <requires>
