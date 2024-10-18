@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
 
-<addon id="plugin.video.daxem" name="Đã Xem" version="0.0.2" provider-name="daxem">
+<addon id="plugin.video.daxem" name="Đã Xem" version="0.0.3" provider-name="daxem">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
     </requires>
