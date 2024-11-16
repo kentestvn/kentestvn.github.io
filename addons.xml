@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
 
-<addon id="plugin.video.daxem" name="Đã Xem" version="0.0.5" provider-name="daxem">
+<addon id="plugin.video.daxem" name="Đã Xem" version="0.0.6" provider-name="daxem">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
     </requires>
@@ -114,10 +114,11 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.2.5" provider-name="thuvienhd">
+<addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.2.6" provider-name="thuvienhd">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
+		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -132,7 +133,7 @@
         <license>GPL-2.0-or-later</license>
         <assets>
             <icon>icon.png</icon>
-	    <fanart>icon.png</fanart>
+			<fanart>icon.png</fanart>
         </assets>
     </extension>
 </addon>
