@@ -335,11 +335,11 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.avdb" name="avdb" version="0.0.5" provider-name="avdb">
+<addon id="plugin.video.avdb" name="AVDB" version="0.0.5" provider-name="avdb">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" version="2.32.3"/>
-		<import addon="script.module.htmlement" version="2.0.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.htmlement"/>
 		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
