@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
-
+<addon id="plugin.video.ytk" name="ytk" version="0.0.1" provider-name="You.Tu">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.htmlement"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">ytk</description>
+        <disclaimer lang="vi">ytk</disclaimer>
+        <summary lang="vi">ytk</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 <addon id="plugin.video.daxem" name="Đã Xem" version="0.0.6" provider-name="daxem">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
