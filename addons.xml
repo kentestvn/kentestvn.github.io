@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
-<addon id="plugin.video.ytk" name="ytk" version="0.0.4" provider-name="You.Tu">
+<addon id="plugin.video.ytk" name="ytk" version="0.0.5" provider-name="You.Tu">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -43,7 +43,7 @@
     </extension>
 </addon>	
 	
-<addon id="plugin.video.cineflow" name="CineFlow" version="0.0.4" provider-name="cineflow">
+<addon id="plugin.video.cineflow" name="CineFlow" version="0.0.5" provider-name="cineflow">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -66,7 +66,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.tiktok" name="TIKTOK" version="0.0.2" provider-name="tiktok">
+<addon id="plugin.video.tiktok" name="TIKTOK" version="0.0.3" provider-name="tiktok">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -89,7 +89,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.tiktok2" name="TIKTOK 2" version="0.0.3" provider-name="tiktok2">
+<addon id="plugin.video.tiktok2" name="TIKTOK 2" version="0.0.4" provider-name="tiktok2">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -112,7 +112,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.tiktok3" name="TIKTOK 3" version="0.0.5" provider-name="tiktok3">
+<addon id="plugin.video.tiktok3" name="TIKTOK 3" version="0.0.6" provider-name="tiktok3">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -135,7 +135,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tiktok4" name="TIKTOK 4" version="0.0.2" provider-name="tiktok4">
+<addon id="plugin.video.tiktok4" name="TIKTOK 4" version="0.0.3" provider-name="tiktok4">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -158,7 +158,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.4.0" provider-name="thuvienhd">
+<addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.4.1" provider-name="thuvienhd">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -182,7 +182,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bongdainfo" name="MiTomTV" version="0.0.3" provider-name="bongdainfo">
+<addon id="plugin.video.bongdainfo" name="MiTomTV" version="0.0.5" provider-name="bongdainfo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -204,7 +204,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.xoilacz" name="XoiLacZ" version="0.0.4" provider-name="xoilacz">
+<addon id="plugin.video.xoilacz" name="XoiLacZ" version="0.0.5" provider-name="xoilacz">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -227,7 +227,7 @@
 </addon>
 	
 
-<addon id="plugin.video.caheo" name="CAHEO" version="0.0.6" provider-name="caheo">
+<addon id="plugin.video.caheo" name="CAHEO" version="0.0.7" provider-name="caheo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -249,7 +249,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.socolive" name="SOCOlive" version="0.0.9" provider-name="socolive">
+<addon id="plugin.video.socolive" name="SOCOlive" version="0.1.0" provider-name="socolive">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -271,7 +271,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.thapcam" name="ThapCam" version="0.0.8" provider-name="thapcam">
+<addon id="plugin.video.thapcam" name="ThapCam" version="0.0.9" provider-name="thapcam">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -294,7 +294,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.avdb" name="AVDB" version="0.0.6" provider-name="avdb">
+<addon id="plugin.video.avdb" name="AVDB" version="0.0.7" provider-name="avdb">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
