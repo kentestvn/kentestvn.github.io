@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
-<addon id="plugin.video.ytk" name="ytk" version="0.0.6" provider-name="You.Tu">
+<addon id="plugin.video.ytk" name="ytk" version="0.0.7" provider-name="You.Tu">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
 		<import addon="script.module.htmlement"/>
-		<import addon="script.module.yt-dlp" version="2024.10.07-1" />
+		<import addon="plugin.video.mytube" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
