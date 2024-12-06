@@ -335,10 +335,6 @@
     </extension>
 </addon>
 
-
-	
-
-
 	
 
 <addon id="script.module.youtube.dl" name="youtube-dl Control" version="23.910.0" provider-name="Rick Phillips (ruuk)">
@@ -497,45 +493,8 @@
     </extension>
 </addon>
 
-<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.12.3" provider-name="Leonard Richardson (leonardr@segfault.org), mkendo">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.soupsieve"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_GB">Screen-scraping library</summary>
-    <description lang="en_GB">Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
-    <license>MIT</license>
-    <platform>all</platform>
-    <website>https://www.crummy.com/software/BeautifulSoup/</website>
-	<source>https://code.launchpad.net/beautifulsoup</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
-</addon>
 
-<addon id="script.module.soupsieve" name="soupsieve" version="2.6" provider-name="Isaac Muse">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">A modern CSS selector implementation for Beautiful Soup.</summary>
-    <description lang="en_GB">A modern CSS selector implementation for Beautiful Soup.</description>
-    <license>MIT</license>
-    <platform>all</platform>
-    <website>https://facelessuser.github.io/soupsieve/</website>
-    <source>https://github.com/facelessuser/soupsieve</source>
-    <assets>
-      <icon>resources/icon.png</icon>
-    </assets>
-  </extension>
-</addon>
-	
-<addon id="kentestvn" name="kentestvn" version="0.0.3" provider-name="kentestvn">
+<addon id="kentestvn" name="kentestvn" version="0.0.4" provider-name="kentestvn">
 	<extension point="xbmc.addon.repository" name="kentestvn">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kentestvn/kentestvn.github.io/master/addons.xml</info>
@@ -601,6 +560,21 @@
             <datadir zip="true">https://download.osmc.tv/dev/anxdpanic/kodi/youtube/unofficial/zips</datadir>
             <hashes>false</hashes>           
         </dir> 
+		<dir>
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/addons/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/addons</datadir>
+        </dir>
+        <dir minversion="19.0.0">
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix/matrix.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix/matrix.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/matrix</datadir>
+        </dir>
+        <dir minversion="20.0.0">
+            <info>https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/nexus.xml</info>
+            <checksum>https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/nexus.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus</datadir>
+        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>kentestvn</summary>
@@ -613,12 +587,5 @@
 		</assets> 
 	</extension>
 </addon>
-
-
-
-
-
-
-
 	
 </addons>
