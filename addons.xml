@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
 
-<addon id="script.service.sponsorblock" version="0.5.0" name="SponsorBlock" provider-name="siku2">
+<addon id="script.service.sponsorblock" version="0.9.0" name="SponsorBlock" provider-name="36-chambers">
     <requires>
         <import addon="script.module.requests" version="2.15.1"/>
         <import addon="script.module.six" version="1.13.0"/>
@@ -47,13 +47,14 @@ Benutzer melden diverse Segmente die dann automatisch übersprungen werden.
 
         <platform>all</platform>
         <license>MIT</license>
-        <source>https://github.com/siku2/script.service.sponsorblock</source>
+        <source>https://github.com/36-chambers/script.service.sponsorblock</source>
         <assets>
             <icon>resources/images/icon.png</icon>
             <fanart>resources/images/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>	
+</addon>
+
 	
 <addon id="plugin.video.daxem" name="Đã Xem" version="0.0.6" provider-name="daxem">
     <requires>
