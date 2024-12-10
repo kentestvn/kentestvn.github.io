@@ -243,7 +243,7 @@
 </addon>
 	
 
-<addon id="plugin.video.caheo" name="CAHEO" version="0.0.7" provider-name="caheo">
+<addon id="plugin.video.caheo" name="CAHEO" version="0.0.8" provider-name="caheo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
