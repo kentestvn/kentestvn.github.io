@@ -198,7 +198,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.bongdainfo" name="MiTomTV" version="0.0.5" provider-name="bongdainfo">
+<addon id="plugin.video.bongdainfo" name="MiTomTV" version="0.0.6" provider-name="bongdainfo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
