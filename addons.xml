@@ -549,7 +549,7 @@
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/addons/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/addons/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/zips/</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/siku2/kodi-repository/refs/heads/master/addons/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
