@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
+
+<addon id="plugin.video.truyenhinh" name="TRUYENHINH" version="0.0.1" provider-name="truyenhinh">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.htmlement"/>
+		<import addon="inputstream.adaptive" version="20.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">truyenhinh</description>
+        <disclaimer lang="vi">truyenhinh</disclaimer>
+        <summary lang="vi">truyenhinh</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 	
 <addon id="script.module.pysocks" name="PySocks" version="1.7.1" provider-name="anorov">
   <requires>
