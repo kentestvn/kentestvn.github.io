@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
 
-<addon id="plugin.video.truyenhinh" name="TRUYENHINH" version="0.0.2" provider-name="truyenhinh">
+<addon id="plugin.video.truyenhinh" name="TRUYENHINH" version="0.0.3" provider-name="truyenhinh">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
 		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -82,11 +81,10 @@
     </extension>
 </addon>	
 	
-<addon id="plugin.video.cineflow" name="CineFlow" version="0.0.6" provider-name="cineflow">
+<addon id="plugin.video.cineflow" name="CineFlow" version="0.0.7" provider-name="cineflow">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
 		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -105,11 +103,10 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.tiktok" name="TIKTOK" version="0.0.3" provider-name="tiktok">
+<addon id="plugin.video.tiktok" name="TIKTOK" version="0.0.4" provider-name="tiktok">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -128,11 +125,10 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.tiktok2" name="TIKTOK 2" version="0.0.4" provider-name="tiktok2">
+<addon id="plugin.video.tiktok2" name="TIKTOK 2" version="0.0.5" provider-name="tiktok2">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -151,11 +147,10 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.tiktok3" name="TIKTOK 3" version="0.0.6" provider-name="tiktok3">
+<addon id="plugin.video.tiktok3" name="TIKTOK 3" version="0.0.7" provider-name="tiktok3">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -174,11 +169,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tiktok4" name="TIKTOK 4" version="0.0.3" provider-name="tiktok4">
+<addon id="plugin.video.tiktok4" name="TIKTOK 4" version="0.0.4" provider-name="tiktok4">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -243,7 +237,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.xoilacz" name="XoiLacZ" version="0.0.6" provider-name="xoilacz">
+<addon id="plugin.video.xoilacz" name="XoiLacZ" version="0.0.7" provider-name="xoilacz">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -266,11 +260,10 @@
 </addon>
 	
 
-<addon id="plugin.video.caheo" name="CAHEO" version="0.0.8" provider-name="caheo">
+<addon id="plugin.video.caheo" name="CAHEO" version="0.0.9" provider-name="caheo">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
-		<import addon="script.module.htmlement" version="2.0.0"/>
 		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -288,11 +281,10 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.socolive" name="SOCOlive" version="0.1.0" provider-name="socolive">
+<addon id="plugin.video.socolive" name="SOCOlive" version="0.1.1" provider-name="socolive">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
-		<import addon="script.module.htmlement" version="2.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -552,23 +544,6 @@
       <icon>resources/icon.png</icon>
     </assets>
 	</extension>
-</addon>
-
-<addon id="script.module.htmlement" name="HTMLement" provider-name="willforde" version="2.0.0">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-	    <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en_GB">Pure-Python HTML parser with ElementTree support.</summary>
-        <description lang="en_GB">Parses HTML using HTMLParser to build a tree of Elements. Utilizing ElementTree support for XPath expression to parse the tree.</description>
-        <source>https://github.com/willforde/python-htmlement</source>
-        <license>MIT</license>
-        <assets>
-            <icon>resources/icon.png</icon>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="kentestvn" name="kentestvn" version="0.0.5" provider-name="kentestvn">
