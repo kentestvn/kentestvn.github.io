@@ -197,7 +197,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.4.1" provider-name="thuvienhd">
+<addon id="plugin.video.thuvienhd" name="ThuVienHD" version="0.4.2" provider-name="thuvienhd">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.32.3"/>
@@ -332,11 +332,10 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.avdb" name="AVDB" version="0.0.7" provider-name="avdb">
+<addon id="plugin.video.avdb" name="AVDB" version="0.0.8" provider-name="avdb">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
-		<import addon="script.module.htmlement"/>
 		<import addon="inputstream.adaptive" version="20.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
