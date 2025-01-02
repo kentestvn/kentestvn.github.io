@@ -167,7 +167,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.tiktok2" name="TIKTOK 2" version="0.0.5" provider-name="tiktok2">
+<addon id="plugin.video.tiktok2" name="TIKTOK 2" version="0.0.6" provider-name="tiktok2">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -189,7 +189,7 @@
     </extension>
 </addon>	
 
-<addon id="plugin.video.tiktok3" name="TIKTOK 3" version="0.0.7" provider-name="tiktok3">
+<addon id="plugin.video.tiktok3" name="TIKTOK 3" version="0.0.8" provider-name="tiktok3">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
@@ -211,7 +211,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tiktok4" name="TIKTOK 4" version="0.0.4" provider-name="tiktok4">
+<addon id="plugin.video.tiktok4" name="TIKTOK 4" version="0.0.5" provider-name="tiktok4">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests"/>
