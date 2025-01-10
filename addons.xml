@@ -144,7 +144,7 @@
         <license>GPL-2.0-or-later</license>
         <assets>
             <icon>icon.jpg</icon>
-            <fanart>icon.png</fanart>
+            <fanart>icon.jpg</fanart>
         </assets>
     </extension>
 </addon>
