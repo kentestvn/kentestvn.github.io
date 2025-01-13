@@ -21,6 +21,30 @@
         </assets>
     </extension>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.video.thethao" name="TheThao" version="0.0.1" provider-name="thethao">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="inputstream.adaptive" version="20.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">thethao</description>
+        <disclaimer lang="vi">thethao</disclaimer>
+        <summary lang="vi">thethao</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+			<fanart>icon.png</fanart>
+        </assets>
+    </extension>
+</addon>	
 <addon id="plugin.video.truyenhinh" name="TRUYENHINH" version="0.0.8" provider-name="truyenhinh">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
