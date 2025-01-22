@@ -105,7 +105,7 @@
 </addon>
 
 	
-<addon id="plugin.video.daxem" name="Đã Xem" version="0.0.7" provider-name="daxem">
+<addon id="plugin.video.daxem" name="Đã Xem" version="0.0.9" provider-name="daxem">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
     </requires>
