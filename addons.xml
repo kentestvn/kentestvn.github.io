@@ -506,7 +506,7 @@
     </extension>
 </addon>
 
-<addon id="script.mytubecast" name="NyTubeCast" version="0.0.1" provider-name="enen92">
+<addon id="script.mytubecast" name="MyTubeCast" version="0.0.1" provider-name="enen92">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.bottle" version="0.12.0"/>
