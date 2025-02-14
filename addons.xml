@@ -376,6 +376,29 @@
     </extension>
 </addon>	
 
+<addon id="plugin.video.ytk" name="ytk" version="0.0.9" provider-name="You.Tu">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.htmlement"/>
+		<import addon="plugin.video.mytube" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="vi">ytk</description>
+        <disclaimer lang="vi">ytk</disclaimer>
+        <summary lang="vi">ytk</summary>
+		<language>vi</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>	
+	
 <addon id="plugin.video.avdb" name="AVDB" version="0.1.2" provider-name="avdb">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
@@ -483,7 +506,38 @@
     </extension>
 </addon>
 
-	
+<addon id="script.mytubecast" name="NyTubeCast" version="0.0.1" provider-name="enen92">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.bottle" version="0.12.0"/>
+        <import addon="script.module.requests" version="2.25.1+matrix.1"/>
+        <import addon="plugin.video.mytube" version="0.0.1" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.script" library="script.py" />
+    <extension point="xbmc.service" library="main.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=329153</forum>
+        <email>enen92@kodi.tv</email>
+        <source>https://github.com/enen92/script.tubecast</source>
+        <news>
+            [new] sync translations
+            [new] fix issue related to different href and rel (dial spec)
+        </news>
+        <assets>
+            <icon>resources/img/icon.png</icon>
+            <fanart>resources/img/fanart.jpg</fanart>
+            <screenshot>resources/img/screenshot-0.jpg</screenshot>
+            <screenshot>resources/img/screenshot-1.jpg</screenshot>
+            <screenshot>resources/img/screenshot-2.jpg</screenshot>
+            <screenshot>resources/img/screenshot-3.jpg</screenshot>
+        </assets>
+        <summary lang="en_GB">Cast videos from the Youtube application to Kodi</summary>
+        <description lang="en_GB">An implementation of the Cast V1 protocol in Kodi to act as a player for the Youtube mobile application</description>
+        
+	</extension>
+</addon>	
 
 	
 <addon id="script.module.requests" name="requests" version="2.32.3" provider-name="Python Software Foundation, mkendo">
