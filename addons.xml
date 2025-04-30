@@ -87,7 +87,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="script.module.bottle" name="Bottle" version="0.13.2" provider-name="Marcel Hellkamp">
+<addon id="script.module.bottle" name="Bottle" version="0.13.3" provider-name="Marcel Hellkamp">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
